@@ -15,10 +15,17 @@ def about():
     return {'data':{'Name':'About page'}}
 
 
-@app.get('bolg/{id}/comments')
+@app.get('/blog/{id}/comments')
 
 def comments(id):
 
     #fetch comments of blog with id = id
 
     return {'data':{'1'}}
+
+
+
+
+
+
+
